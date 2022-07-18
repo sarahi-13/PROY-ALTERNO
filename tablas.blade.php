@@ -7,10 +7,8 @@
             
             <div class="float-right">
     	        <a href="{{ route ('pdf')}}" class="btn btn-primary btn-sm" data-placement="left">
-                    {{_('PDF')}}
+                    
                 </a>
-
-
                 
             </div>
             <table class="table table-light table-bordered">
@@ -23,7 +21,6 @@
                         <th width='15%' class="texr-center">TI Anual</th>
                         <th width='20%' class="texr-center">Número de Pagos</th>
                         <th width='20%' class="texr-center">Pago Mensual</th>
-             
                     </tr>
                   
                         <tr>
