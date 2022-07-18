@@ -17,11 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-
-
 Auth::routes();
-
 
 Route::get('/pdf', [App\Http\Controllers\HomeController::class, 'pdf'])->name('pdf')->middleware();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware();
